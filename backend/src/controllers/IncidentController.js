@@ -21,7 +21,7 @@ module.exports = {
       'ongs.city',
       'ongs.uf']);
 
-    res.header('X-Total_Count', count['count(*)'])
+    res.header('X-Total-Count', count['count(*)'])
 
     return res.json(incident)
 
